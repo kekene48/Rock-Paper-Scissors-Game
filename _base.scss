@@ -1,0 +1,33 @@
+$Scissors-Gradient-1: hsl(39, 89%, 49%);
+$Scissors-Gradient-2: hsl(40, 84%, 53%);
+$Paper-Gradient-1: hsl(230, 89%, 62%);
+$Paper-Gradient-2: hsl(230, 89%, 65%);
+$Rock-Gradient-1: hsl(349, 71%, 52%);
+$Rock-Gradient-2: hsl(349, 70%, 56%);
+$Lizard-Gradient-1: hsl(261, 73%, 60%);
+$Lizard-Gradient-2: hsl(261, 72%, 63%);
+$Cyan-1: hsl(189, 59%, 53%);
+$Cyan-2: hsl(189, 58%, 57%);
+$Dark-Text: hsl(229, 25%, 31%);
+$Score-Text: hsl(229, 64%, 46%);
+$Header-Outline: hsl(217, 16%, 45%); 
+$color-white: rgb(255,255,255);
+$color-black: rgb(0,0,0);
+
+
+$Background-Gradient-1: hsl(214, 47%, 23%);
+$Background-Gradient-2: hsl(237, 49%, 15%);
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%; //1rem = 10px
+  background-image: radial-gradient($Background-Gradient-1, $Background-Gradient-2);
+  height: 100vh;
+}
